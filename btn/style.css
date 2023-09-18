@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+.botton{
+    margin: 15px;
+}
+.botton1 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgb(239, 102, 77);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: rgb(0, 0, 0) 5px 2px 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+.botton2 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgb(239, 102, 77);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: rgb(0, 0, 0) 5px 2px 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+.botton3 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgb(239, 102, 77);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: rgb(0, 0, 0) 5px 2px 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+.botton4 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    background-color: rgb(239, 102, 77);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: rgb(0, 0, 0) 5px 2px 10px 0px;
+    position: relative;
+    z-index: 1;
+}
+.botton:hover {
+    color: rgb(46, 62, 78);
+}
+.botton1::before {
+    content: "";
+    height: 100%;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: yellow;
+    color: rgb(102, 15, 15);
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    z-index: -1;
+}
+.botton1:hover::before {
+    width: 100%;
+}
+.botton2::before {
+    content: "";
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: yellow;
+    color: rgb(102, 15, 15);
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    z-index: -1;
+}
+.botton2:hover::before {
+    height: 100%;
+}
+.botton3::before {
+    content: "";
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: yellow;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    z-index: -1;
+}
+.botton3:hover::before {
+    height: 100%;
+}
+.botton4::before {
+    content: "";
+    height: 100%;
+    width: 0px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: yellow;
+    border-radius: 5px;
+    transition: all 0.5s ease 0s;
+    z-index: -1;
+}
+.botton4:hover::before {
+    width: 100%;
+}
